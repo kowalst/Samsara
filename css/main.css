@@ -202,7 +202,7 @@ nav li:hover{
 .feature-bg{
     background: rgba(0,0,0,0.38);
     background-size: cover !important;
-    height: 250vh;
+    height: 275vh;
 }
 .feature{
     display: var(--display-1);
