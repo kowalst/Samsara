@@ -36,7 +36,7 @@ header nav{
     background: transparent !important;
     display: var(--display-style);
     position: absolute;
-    padding-left: 12.9%;
+    padding-left: 9.5%;
 }
 .menu .first-nav{
 	border-top-left-radius: 10px;
@@ -125,12 +125,8 @@ nav li:hover{
 		1px 1px 0 #000;
 }
 .heroitems h1{
-    font-size: 3em;
-	color: var(--black);
-}
-.heroitems p{
-    font-size: 1.4em;
-	color: var(--black);
+    font-size: 15em;
+	color: var(--lBlue);
 }
 .heroimage:before{
     content: "";
@@ -152,10 +148,24 @@ nav li:hover{
     padding: 7em 0em 7em 0em;
 }
 .why-bg{
-    height: 100vh;
-    background-size: cover;
+    background-image: url(../images/samsara.jpg);
+    height: 1000px;
     margin: 0;
     padding: 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.death-bg{
+    background-image: url(../images/fire\ particles.gif);
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 .why-us{
     float: none;
@@ -179,7 +189,7 @@ nav li:hover{
     padding: 12px 30px;
     margin-top: 1em;
     letter-spacing: .15em;
-    color: var(--black);
+    color: var(--white);
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -192,41 +202,24 @@ nav li:hover{
 .feature-bg{
     background: rgba(0,0,0,0.38);
     background-size: cover !important;
-    height: 100vh;
+    height: 250vh;
 }
 .feature{
     display: var(--display-1);
     width: 100%;
-    text-align: center;
+    text-align: left;
     color: var(--black);
-}
-.feature h2{
-    font-size: 3em;
-    margin-bottom: 30px;
-    padding-bottom: 1.5em;
 }
 .feature p{
     font-size:1.4em;
     padding-bottom: 1em;
 }
-.feature ul{
-    display: flex;
-    justify-content: space-around; 
-    text-align: center;
-    margin: 0;
-    padding: 0;
+.rebirth-bg{
+    background: rgba(0,0,0,0.38);
+    background-size: cover !important;
 }
-.feature li{
-    list-style: none;
-}
-.feature img{
-    width: 300px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-.feature img:hover{
-    box-shadow: 0 8px 16px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
-    cursor: pointer;
-}
+
+
 
 
 
@@ -253,9 +246,6 @@ nav li:hover{
 }
 .footer p a{
     color: var(--lBlue);
-}
-.footer p a:hover{
-    color: var(--dBlue) !important;
 }
 footer .logo img{
     height: 100px;
